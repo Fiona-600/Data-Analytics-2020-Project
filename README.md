@@ -8,9 +8,7 @@
 
 This project uses 'Simple Linear Regression' and the 'Wind-Power' dataset to predict power output based on a given wind speed.
 
-
-
-![alt text](https://www.munichre.com/content/dam/assets/munichre/images/royalty-free-ppt-only/200416688-001_22.jpg/_jcr_content/renditions/original.image_file.5079.2857.0,329,5079,3186.file/200416688-001_22.jpg
+![alt text](https://www.munichre.com/content/dam/assets/munichre/images/royalty-free-ppt-only/200416688-001_22.jpg/_jcr_content/renditions/original.image_file.5079.2857.0,329,5079,3186.file/200416688-001_22.jpg)
 
 *Source: https://www.munichre.com/content/dam/assets/munichre/images/royalty-free-ppt-only/200416688-001_22.jpg/_jcr_content/renditions/original.image_file.5079.2857.0,329,5079,3186.file/200416688-001_22.jpg*
 
