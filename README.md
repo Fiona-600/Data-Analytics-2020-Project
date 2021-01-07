@@ -8,9 +8,11 @@
 
 This project uses 'Simple Linear Regression' and the 'Wind-Power' dataset to predict power output based on a given wind speed.
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.marei.ie%2Fwebinar-developing-wind-turbine-blades-for-the-future-challenges-in-the-onshore-and-offshore-wind-energy-sectors%2F&psig=AOvVaw1hwlRfxlCTjbFwXlyx0UQT&ust=1610133355758000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOj2x6bEiu4CFQAAAAAdAAAAABBA)
 
-*Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.marei.ie%2Fwebinar-developing-wind-turbine-blades-for-the-future-challenges-in-the-onshore-and-offshore-wind-energy-sectors%2F&psig=AOvVaw1hwlRfxlCTjbFwXlyx0UQT&ust=1610133355758000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOj2x6bEiu4CFQAAAAAdAAAAABBA*
+
+![alt text](https://www.munichre.com/content/dam/assets/munichre/images/royalty-free-ppt-only/200416688-001_22.jpg/_jcr_content/renditions/original.image_file.5079.2857.0,329,5079,3186.file/200416688-001_22.jpg
+
+*Source: https://www.munichre.com/content/dam/assets/munichre/images/royalty-free-ppt-only/200416688-001_22.jpg/_jcr_content/renditions/original.image_file.5079.2857.0,329,5079,3186.file/200416688-001_22.jpg*
 
 **Qualities and attributes of the dataset**
 
