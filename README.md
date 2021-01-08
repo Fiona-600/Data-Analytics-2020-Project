@@ -35,13 +35,30 @@ The elements explored will be:
 3.	Prediction of power output based on a given wind speed
 4.	Use of other types of regression methods to produce the same output as the simple linear regression approach
 
+
+**Research & Assumptions**
+
+Wind turbines typically start operating at wind speeds around 8-12 miles per hour (mph). Turbines reach maximum power output at 25-30 mph. At very high wind speeds, i.e. 55 mph or greater the wind turbines shut down to prevent excessive wear and tear. 
+source: https://enerpower.ie/portfolio/wind-turbine-faq-ireland/
+
+Power:speed ratio is recommended to be between 6 and 8 eg. for a grid connected wind turbine with 3 blades, the optimum ratio is suggested as 7. source: https://www.mdpi.com/
+
+Based on the research above, I decided on the following assumptions:
+
+1.	Low or no power output at wind speeds below 8mph is normal 
+2.	Zero wind speed and power output is most likely test data 
+3.	A power:speed ratio between 8 and 8 is optimal
+4.	A power:speed ratio less than 6 is sub-optimal
+5.	A power:speed ratio greater than 8 is exceptional
+
+
 **Simple Linear Regression**
 
 Simple linear regression is an approach for predicting a response using a single feature.  It is assumed that there are two linearly related variables, a feature (Speed_Mph) and a response (Power_KWph). 
 
 This method attempts to find a linear function that predicts the response value (in this case Power_KWph) as accurately as possible as a function of the feature variable (Speed_Mph).
 
-The line which best fits the scatter plot of the dataset is called 'regression line'.  This line is used to predict a feature value i.e.  'Power_KWph' which is not already present in dataset.
+The line which best fits the plot of the dataset is called 'regression line'.  This line is used to predict a feature value i.e.  'Power_KWph' which is not already present in dataset.
 
 The equation of regression line is represented as:
 
@@ -50,6 +67,8 @@ y = (intercept + slope (x))
 source: https://www.geeksforgeeks.org/linear-regression-python-implementation/
 
 **Conclusions and Findings**
+
+The data in the Wind-Power datasets suggest that the 90% (439) of the samples selected have performed below the power:speed ratio standard for wind turbines of 6. There is exponential growth in power output between wind speeds of 8 and 18 mph and relatively flat output between 0 to 8mph and 18 to 25mph.
 
 The Wind-Power dataset is not a perfect linear example for simple linear regression.  The dataset follows a curved shape with two bends (cubic) when plotted so it is difficult to fit a line closely to the data.  
 
@@ -168,3 +187,8 @@ https://contactsunny.medium.com/linear-regression-in-python-using-scikit-learn-f
 https://stackabuse.com/linear-regression-in-python-with-scikit-learn/
 
 https://www.geeksforgeeks.org/linear-regression-python-implementation/
+
+https://enerpower.ie/portfolio/wind-turbine-faq-ireland/
+
+https://www.mdpi.com/
+
