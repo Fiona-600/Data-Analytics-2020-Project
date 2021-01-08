@@ -14,7 +14,7 @@ This project uses 'Simple Linear Regression' to predict the power output of wind
 
 **Qualities and attributes of the Wind-Power dataset**
 
-The original dataset contained 500 samples (rows), and 2 variables (columns) namely: 'speed' and 'power'. 
+The original dataset contained 500 samples (rows) and 2 variables (columns) namely: 'speed' and 'power'. 
 
 The changes made to the original dataset are as follows:
 
@@ -31,9 +31,9 @@ The changes made to the original dataset are as follows:
 The elements explored will be:
 
 1.	'Simple Linear Regression' as applied to the 'Wind-Power' data set 
-2.	Explanation of the 'simple linear regression' and an analysis of its' accuracy
+2.	Explanation of the simple linear regression method and an analysis of its' accuracy
 3.	Prediction of power output based on a given wind speed
-4.	Use of other types of Regression to produce the same output as the 'Simple Linear Regression' approach
+4.	Use of other types of regression methods to produce the same output as the simple linear regression approach
 
 **Simple Linear Regression**
 
@@ -41,7 +41,7 @@ Simple linear regression is an approach for predicting a response using a single
 
 This method attempts to find a linear function that predicts the response value (in this case Power_KWph) as accurately as possible as a function of the feature variable (Speed_Mph).
 
-The line which best fits the scatter plot of the dataset is called 'regression line'.  This line is used to predict feature values i.e.  'Power_KWph' which are not already present in dataset.
+The line which best fits the scatter plot of the dataset is called 'regression line'.  This line is used to predict a feature value i.e.  'Power_KWph' which is not already present in dataset.
 
 The equation of regression line is represented as:
 
@@ -51,11 +51,11 @@ source: https://www.geeksforgeeks.org/linear-regression-python-implementation/
 
 **Conclusions and Findings**
 
-The Wind-Power dataset is not a perfect linear example for simple linear regression.  The dataset follows a 'S' shape when plotted so it is difficult to fit a line closely to the data.  
+The Wind-Power dataset is not a perfect linear example for simple linear regression.  The dataset follows a curved shape with two bends (cubic) when plotted so it is difficult to fit a line closely to the data.  
 
 The cost of the best fit line of 80,618 represents the sum of the individual differences between predicted and actual values for y (i.e. Power_KWph) squared.  This reflects the poor fit of the line.
 
-In contrast, the R-squared value result is 90% which suggests that 90% of the values fall within the regression line region.  On inspection of the graph vs 'best line' plot however this does not appear to be the case.  This is because the regression line consistently under and over-predicts the data along the curve, which is bias. The ideal scenario for using simple linear regression is an unbiased model with residuals that are randomly scattered around zero.
+In contrast, the 'R-squared' value result is 90% which suggests that 90% of the values fall within the regression line region.  On inspection of the graph vs 'best line' plot however this does not appear to be the case.  This is because the regression line consistently under and over-predicts the data along the curve, which is bias. The ideal scenario for using simple linear regression is an unbiased model with residuals that are randomly scattered around zero.
 
 
 **Structure & Project Navigation**
