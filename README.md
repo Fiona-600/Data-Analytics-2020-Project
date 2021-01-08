@@ -48,9 +48,9 @@ Power:speed ratio is recommended to be between 6 and 8 eg. for a grid connected 
 
 Based on the research above, I decided on the following assumptions:
 
-1.	Low or no power output at wind speeds below 8mph is normal 
+1.	Low or no power output at wind speeds below 8 mph is normal 
 2.	Zero wind speed and power output is most likely test data 
-3.	A power:speed ratio between 8 and 8 is optimal
+3.	A power:speed ratio between 6 and 8 is optimal
 4.	A power:speed ratio less than 6 is sub-optimal
 5.	A power:speed ratio greater than 8 is exceptional
 
