@@ -63,7 +63,7 @@ The project will be stored in a GITHUB Repository at url: https://github.com/Fio
     
     •	A python program file called ‘Final Project 2020.ipynb’ which contains:
  
-          • Online and other research into simpple linear regression and other approaches
+          •	Online and other research into simpple linear regression and other approaches
           •	High level review and summary of the data set
           •	Identification of trends and exceptional samples (outliers)      
           •	Visualisation of the data set and the relationship between the variables
