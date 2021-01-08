@@ -45,12 +45,17 @@ The line which best fits the scatter plot of the dataset is called 'regression l
 
 The equation of regression line is represented as:
 
-h(x_i) = \beta _0 + \beta_1x_i
+y = (intercept + slope (x))
 
 source: https://www.geeksforgeeks.org/linear-regression-python-implementation/
 
+**Conclusions and Findings**
 
+The Wind-Power dataset is not a perfect linear example for simple linear regression.  The dataset follows a 'S' shape when plotted so it is difficult to fit a line closely to the data.  
 
+The cost of the best fit line of 80,618 represents the sum of the individual differences between predicted and actual values for y (i.e. Power_KWph) squared.  This reflects the poor fit of the line.
+
+In contrast, the R-squared value result is 90% which suggests that 90% of the values fall within the regression line region.  On inspection of the graph vs 'best line' plot however this does not appear to be the case.  This is because the regression line consistently under and over-predicts the data along the curve, which is bias. The ideal scenario for using simple linear regression is an unbiased model with residuals that are randomly scattered around zero.
 
 
 **Structure & Project Navigation**
