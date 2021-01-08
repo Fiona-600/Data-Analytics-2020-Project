@@ -39,9 +39,12 @@ The elements explored will be:
 **Research & Assumptions**
 
 Wind turbines typically start operating at wind speeds around 8-12 miles per hour (mph). Turbines reach maximum power output at 25-30 mph. At very high wind speeds, i.e. 55 mph or greater the wind turbines shut down to prevent excessive wear and tear. 
+
 source: https://enerpower.ie/portfolio/wind-turbine-faq-ireland/
 
-Power:speed ratio is recommended to be between 6 and 8 eg. for a grid connected wind turbine with 3 blades, the optimum ratio is suggested as 7. source: https://www.mdpi.com/
+Power:speed ratio is recommended to be between 6 and 8 eg. for a grid connected wind turbine with 3 blades, the optimum ratio is suggested as 7. 
+
+source: https://www.mdpi.com/
 
 Based on the research above, I decided on the following assumptions:
 
