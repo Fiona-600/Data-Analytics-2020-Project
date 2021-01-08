@@ -71,7 +71,7 @@ source: https://www.geeksforgeeks.org/linear-regression-python-implementation/
 
 **Conclusions and Findings**
 
-The data in the Wind-Power datasets suggest that the 90% (439) of the samples selected have performed below the power:speed ratio standard for wind turbines of 6. There is exponential growth in power output between wind speeds of 8 and 18 mph and relatively flat output between 0 to 8mph and 18 to 25mph.
+The data in the Wind-Power datasets suggest that the 90% (439) of the samples selected have performed below the power:speed ratio standard for wind turbines of 6. There is exponential growth in power output between wind speeds of 8 and 18 mph and relatively flat output between 0 to 8mph and 18 to 25 mph.
 
 The Wind-Power dataset is not a perfect linear example for simple linear regression.  The dataset follows a curved shape with two bends (cubic) when plotted so it is difficult to fit a line closely to the data.  
 
