@@ -6,7 +6,7 @@
 
 **Introduction**
 
-This project uses 'Simple Linear Regression' to predict power output of wind turbines based on a given wind speed using the 'Wind-Power' dataset.
+This project uses 'Simple Linear Regression' to predict the power output of wind turbines based on a given wind speed using the 'Wind-Power' dataset as the basis.
 
 ![alt text](https://www.munichre.com/content/dam/assets/munichre/images/royalty-free-ppt-only/200416688-001_22.jpg/_jcr_content/renditions/original.image_file.5079.2857.0,329,5079,3186.file/200416688-001_22.jpg)
 
