@@ -30,18 +30,18 @@ The changes made to the original dataset are as follows:
 
 The elements explored will be:
 
-1.	'Simple Linear Regression' applied to the 'Wind-Power' data set 
-2.	Explanation of the 'simple linear regression' and analysis of its accuracy
+1.	'Simple Linear Regression' as applied to the 'Wind-Power' data set 
+2.	Explanation of the 'simple linear regression' and an analysis of its' accuracy
 3.	Prediction of power output based on a given wind speed
 4.	Use of other types of Regression to produce the same output as the 'Simple Linear Regression' approach
 
 **Simple Linear Regression**
 
-Simple linear regression is an approach for predicting a response using a single feature.  It is assumed that there are two variables, a feature (Speed_Mph) and a response (Power_KWph) that are linearly related. 
+Simple linear regression is an approach for predicting a response using a single feature.  It is assumed that there are two linearly related variables, a feature (Speed_Mph) and a response (Power_KWph). 
 
-This method attempts to find a linear function that predicts the response value (in this case Power_KWph) as accurately as possible as a function of the feature or independent variable (Speed_Mph).
+This method attempts to find a linear function that predicts the response value (in this case Power_KWph) as accurately as possible as a function of the feature variable (Speed_Mph).
 
-The line which best fits the scatter plot of the dataset is called 'regression line'.  This line is used to predict feature values i.e. in this case 'Power_KWph' which are not already present in dataset.
+The line which best fits the scatter plot of the dataset is called 'regression line'.  This line is used to predict feature values i.e.  'Power_KWph' which are not already present in dataset.
 
 The equation of regression line is represented as:
 
